@@ -1,0 +1,13 @@
+.activeLinkStyle {
+  color: var(--main-color-green) !important;
+}
+.activeLinkStyle::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--main-color-green);
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}

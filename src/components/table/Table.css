@@ -1,0 +1,22 @@
+.table-container {
+  max-height: 650px;
+  overflow-y: auto;
+}
+.button-table {
+  border: none;
+  background: none;
+}
+
+.name-file {
+  color: #4785ee !important;
+}
+.text-color-table {
+  color: #313131 !important;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+}
